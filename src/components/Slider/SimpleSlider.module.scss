@@ -1,0 +1,54 @@
+$thunder: #181618;
+$thunder2: #1F1E1F;
+$baltic-sea: #282729;
+$biloba-flower: #D996EB;
+$french-lilac: #E8C9F0;
+$french-lilac2: #EEDCF3;
+$lavender-blush: #FFF8FA;
+$perfume: #E6ACF5;
+
+.slider {
+  width: 100%;
+  height: 300px;
+  background-color: $lavender-blush;
+  border-radius: 20px;
+  margin: 0 0 60px 0;
+  &.dark {
+    background-color: $baltic-sea;
+    color: #fff;
+  }
+  .sliderItem {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    .sliderInfo {
+      padding: 45px 0 30px 50px;
+      h3 {
+        font-size: 50px;
+        font-weight: 700;
+        max-width: 502px;
+        margin: 0 0 40px 0;
+        line-height: 65px;
+        span {
+          color: $biloba-flower;
+        }
+      }
+      button {
+        color: #fff;
+        width: 265px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 15px;
+        background-color: $biloba-flower;
+      }
+    }
+    .sliderImage {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
